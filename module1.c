@@ -26,6 +26,7 @@ static int __init mdl_init(void)
 	pr_info("Loading module %d\n", mdl_data);
 	pr_info("Integer is %d\n", my_int);
 	pr_info("String is %s\n", my_string);
+	printk("OK");
 	return 0;
 }
 
